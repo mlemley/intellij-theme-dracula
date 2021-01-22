@@ -34,6 +34,7 @@
   "ui": {
     "*": {
       "arc": "7",
+
       "background": "darkBackground",
       "selectionBackground": "selectionBackground",
       "selectionInactiveBackground": "selectionInactiveBackground",
@@ -107,11 +108,11 @@
       "areaBorderColor": "selectionBackground"
     },
     "Editor": {
-      "background": "secondaryBackground",
+      "background": "lightBackground",
       "shortcutForeground": "accentColor"
     },
     "EditorTabs": {
-      "background": "secondaryBackground",
+      "background": "darkBackground",
       "underlinedTabBackground": "#292b38",
       "underlineColor": "secondaryAccentColor",
       "underlineHeight": 1
@@ -220,28 +221,35 @@
       "separatorColor": "separatorColor"
     },
     "SidePanel": {
-      "background": "secondaryBackground"
+      "background": "lightBackground"
     },
+
     "StatusBar": {
       "hoverBackground": "hoverBackground"
     },
+
     "TabbedPane": {
+      "background": "darkBackground",
       "tabSelectionHeight": 1,
       "focusColor": "hoverBackground",
       "hoverColor": "hoverBackground",
       "underlineColor": "secondaryAccentColor",
       "contentAreaColor": "hoverBackground"
     },
+
     "Table": {
       "gridColor": "#5d617a",
       "hoverBackground": "selectionBackground"
     },
+
     "TableHeader": {
       "bottomSeparatorColor": "separatorColor"
     },
+
     "TextField": {
       "background": "secondaryBackground"
     },
+
     "ToggleButton": {
       "onBackground": "#50fa7b",
       "onForeground": "hoverBackground",
@@ -249,14 +257,18 @@
       "offForeground": "hoverBackground",
       "buttonColor": "primaryForeground"
     },
+
     "ToolWindow": {
+
       "Button": {
         "hoverBackground": "hoverBackground"
       },
+
       "Header": {
-        "background": "#484c60",
-        "inactiveBackground": "secondaryBackground"
+        "background": "darkBackground",
+        "inactiveBackground": "darkBackground"
       },
+
       "HeaderTab": {
         "underlineColor": "secondaryAccentColor",
         "underlineHeight": 2,
@@ -275,6 +287,7 @@
       "warningBorderColor": "#ffb86c",
       "warningBackground": "#ffb86c"
     },
+
     "VersionControl": {
       "FileHistory": {
         "Commit": {
@@ -295,11 +308,16 @@
         }
       }
     },
+
     "WelcomeScreen": {
+      "background" : "lightBackground",
+
       "SidePanel": {
         "background": "lightBackground"
       },
+
       "separatorColor": "separatorColor",
+
       "Projects": {
         "background": "hoverBackground",
         "selectionBackground": "secondaryBackground",
