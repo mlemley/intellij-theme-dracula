@@ -1,5 +1,5 @@
 {
-  "name": "dracula-theme",
+  "name": "dracula-[-_-]",
   "dark": true,
   "author": "",
   "editorScheme": "/dracula_theme.xml",
@@ -11,7 +11,7 @@
     "comment": "#6272a4",
     "foreGround": "#f8f8f2",
     "cyan" : "#8be9fd",
-    "blue" : "#8be9fd",
+    "blue" : "#5394EC",
     "green" : "#50fa7b",
     "orange" : "#ffb86c",
     "pink" : "#ff79c6",
@@ -198,9 +198,9 @@
     },
     "ScrollBar": {
       "Mac": {
-        "hoverThumbColor": "secondaryAccentColor",
+        "hoverThumbColor": "#44475a",
         "Transparent": {
-          "hoverThumbColor": "secondaryAccentColor"
+          "hoverThumbColor": "#44475a"
         }
       }
     },
