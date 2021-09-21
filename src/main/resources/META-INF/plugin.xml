@@ -1,0 +1,33 @@
+<idea-plugin>
+    <id>app.darcula.[-_-]</id>
+    <name>Dracula Theme</name>
+    <version>1.0.1</version>
+    <vendor email="mlemleyap@gmail.com">[-_-]</vendor>
+
+    <description><![CDATA[
+      IDE Dracula Theme -- Please Enjoy, and let me know of any changes
+    ]]></description>
+
+    <change-notes><![CDATA[
+       * Update Mac Scroll Bar color
+       * Update Log Colors
+]]>
+    </change-notes>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="173.0"/>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <themeProvider id="f3893406-c075-480f-bb83-8fc1a54276bb" path="/dracula_theme.json"/>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+
+</idea-plugin>
