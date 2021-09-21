@@ -63,11 +63,6 @@ tasks {
                   width="600"
                 />
               </p>
-              <h2>Install</h2>
-              <p>
-                All instructions can be found at
-                <a href="https://draculatheme.com/jetbrains">draculatheme.com/jetbrains</a>.
-              </p>
               <h2>Dracula [-_-]</h2> 
               <p>
                 extended from: <a href="https://draculatheme.com/jetbrains">draculatheme.com/jetbrains</a>.
