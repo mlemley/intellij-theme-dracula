@@ -59,7 +59,7 @@ tasks {
               <p>
                 <img
                   alt="Screenshot"
-                  src="https://raw.githubusercontent.com/mlemley/intellij-theme-dracula/main/screenshot.png"
+                  src="https://raw.githubusercontent.com/mlemley/intellij-theme-dracula/main/screenshot.jpg"
                   width="600"
                 />
               </p>
