@@ -4,9 +4,18 @@
 
 ![Screenshot](./screenshot.jpg)
 
-## Contribution
+## Dracula Unofficial
 
-If you'd like to contribute to this theme, please read the [Contributing Guide](./CONTRIBUTING.md).
+Extended from [DraculaTheme](https://draculatheme.com/jetbrains)
+
+### Color Theme
+
+More inline with other Dracula Classic windowing systems
+
+* Dark chrome
+* Accents with Dracula's blues and greens instead of purples and pinks
+* Editor Coloring
+  * classic color pallet [Contribute to Dracula](https://draculatheme.com/contribute)
 
 ## License
 

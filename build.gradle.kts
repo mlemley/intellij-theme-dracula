@@ -53,36 +53,36 @@ tasks {
         untilBuild.set(properties("pluginUntilBuild"))
 
         val description = """
-            <div>
-              <p>Dracula Theme for JetBrains</p>
-              <br />
-              <p>
-                <img
-                  alt="Screenshot"
-                  src="https://raw.githubusercontent.com/mlemley/intellij-theme-dracula/main/screenshot.jpg"
-                  width="600"
-                />
-              </p>
-              <h2>Dracula [-_-]</h2> 
-              <p>
-                extended from: <a href="https://draculatheme.com/jetbrains">draculatheme.com/jetbrains</a>.
-              </p>
-              <p>
-                Intended for terminal emulators, code editors, and syntax highlighters. Designed to
-                be aesthetically pleasing while keeping you focused.
-              </p>
-              <p><a href="https://gumroad.com/a/477820019">Get it now</a></p>
-              <h2>Licence</h2>
-              <p>
-                <a href="https://raw.githubusercontent.com/dracula/jetbrains/master/LICENSE"
-                  >MIT Licence</a
-                >
-              </p>
-              <h2>Extended From</h2>
-              <p>
-                <a href="https://draculatheme.com/jetbrains">draculatheme.com/jetbrains</a>.
-              </p>
-            </div>
+        <div>
+          <h2>Dracula Classic (Unofficial)</h2>
+          <p> 
+            <img
+              alt="Screenshot"
+              src="https://raw.githubusercontent.com/mlemley/intellij-theme-dracula/main/screenshot.jpg"
+              width="600"
+            />
+          </p>
+          <p> Extended from: <a href="https://draculatheme.com/jetbrains">draculatheme.com/jetbrains</a>.</p>
+          <h3> Color Theme</h3>
+          <p>This theme is more in-line with other Dracula Classic windowing systems.</p>
+          <ul>
+              <li>
+                  Dark chrome
+              </li>
+              <li>
+                  Accents with Dracula's blues and greens instead of purples and pinks
+              </li>
+              <li>
+                  Editor Coloring based on <a href="https://draculatheme.com/contribute">contribution guidelines</a>.
+              </li>
+          </ul>
+          <p> 
+            Intended for terminal emulators, code editors, and syntax highlighters. Designed to
+            be aesthetically pleasing, while keeping you focused.
+          </p>
+          <h2>Licence</h2>
+          <p> <a href="https://raw.githubusercontent.com/dracula/jetbrains/master/LICENSE" >MIT Licence</a></p>
+        </div>
         """.trimIndent()
 
         pluginDescription.set(description)
