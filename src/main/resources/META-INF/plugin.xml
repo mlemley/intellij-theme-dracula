@@ -3,7 +3,7 @@
     <name>Dracula Theme (Unofficial)</name>
     <vendor email="mlemleyap@gmail.com" url="">Dracula (Unofficial)</vendor>
     <depends>com.intellij.modules.lang</depends>
-    <idea-version since-build="203"/>
+    <idea-version since-build="211"/>
     <extensions defaultExtensionNs="com.intellij">
         <notificationGroup displayType="STICKY_BALLOON" id="Dracula Theme (Unofficial)" isLogByDefault="true"/>
         <themeProvider id="105bc153-31fe-4686-983d-295b7d131dd3" path="/dracula_theme.json"/>
